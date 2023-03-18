@@ -111,7 +111,7 @@
    &none &kp Q &kp W &kp E   &kp R   &kp T       &trans &trans &trans &trans &trans &none
    &none &kp A &kp S &kp D   &kp F   &kp G       &trans &trans &trans &trans &trans &none
    &none &kp Z &kp X &kp C   &kp V   &kp B       &trans &trans &trans &trans &trans &none
-                     &kp ESC &LSHIFT &kp SPACE   &trans &trans &trans
+                     &kp ESC &kp LSHIFT &kp SPACE   &trans &trans &trans
                         >;
                 };
         };
