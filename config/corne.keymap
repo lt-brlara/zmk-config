@@ -76,13 +76,13 @@
                 nav_layer {
 // -----------------------------------------------------------------------------------------
 // | N/A |     |     |     |     |     |   |     |     |     |     |     | N/A |
-// | N/A |     |     |     |     |     |   |CAPS |LEFT |DOWN |  UP |RIGHT| N/A |
+// | N/A |     |     |     |     |     |   |LEFT |DOWN |  UP |RIGHT|CAPS | N/A |
 // | N/A |     |     |     |     |     |   | DEL |HOME |PG_UP|PG_DN| END | N/A |
 //                   | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &none &trans   &trans &trans   &trans   &trans         &kp CARET &kp AMPS &kp KP_MULTIPLY &kp LPAR &kp RPAR &none
-   &none &trans   &trans &trans   &trans   &trans         &kp CAPS  &kp LEFT &kp DOWN &kp UP &kp RIGHT &none
-   &none &trans   &trans &trans   &trans   &trans         &kp DEL   &kp HOME &kp PG_UP &kp PG_DN &kp END &none
+   &none &trans   &trans &trans   &trans   &trans         &kp CARET &kp AMPS &kp KP_MULTIPLY &kp LPAR  &kp RPAR &none
+   &none &trans   &trans &trans   &trans   &trans         &kp LEFT  &kp DOWN &kp UP          &kp RIGHT &kp CAPS &none
+   &none &trans   &trans &trans   &trans   &trans         &kp DEL   &kp HOME &kp PG_UP       &kp PG_DN &kp END  &none
                     	   &kp LGUI &trans   &kp SPACE      &kp RET   &trans   &kp RALT
                         >;
                 };
